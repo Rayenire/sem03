@@ -1,8 +1,8 @@
 ﻿int n;
-n = Convert.ToInt32(ConsoleReadline());
+n = Convert.ToInt32(Console.ReadLine());
 int i = 1;
 while (i <= n)
 {
-    Console.WriteLine(i * 1);
+    Console.WriteLine(i * i);
     i++;
 }
